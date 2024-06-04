@@ -1,0 +1,39 @@
+graph { padding: 45px; }
+
+sprite.info { size: 0px;
+text-size: 15; 
+text-alignment: above;
+ text-color: white;
+ text-style: bold; 
+text-background-mode: rounded-box; 
+text-background-color: #222C;
+ text-padding: 5px, 4px;
+ text-offset: 0px, 5px; 
+	
+}
+node { fill-mode: dyn-plain;
+	fill-color: blue, green, red; 
+	size: 30px; 
+	size-mode: dyn-size; 
+	stroke-mode: plain; 
+	stroke-color: #855; 
+	stroke-width: 0.5px; 
+	shape: box;
+	
+	}
+node.resting { fill-mode: dyn-plain;
+	fill-color: rgb(210, 210, 255),rgb(210, 255, 210), rgb(255, 210, 210); 
+	}
+node.lockedwithpass { shape: circle;
+	fill-color: white;
+	size: 5px;
+	}
+edge {
+	shape: line;
+	fill-mode: dyn-plain;
+	fill-color: #dd8, #b0f;
+	
+}
+
+sprite { fill-color: yellow;}
+sprite.pathfinder { fill-color: purple;}
